@@ -1,0 +1,23 @@
+div.container{
+    background-color: blue;
+    margin: 20px;
+    padding: 20px;
+}
+
+div#middle-container{
+    background-color: violet;
+    margin: 20px;
+    padding: 20px;
+}
+.header{
+    margin: 0px;
+}
+/*immediate child*/
+.purple > ul >li{
+    color: whitesmoke;
+}
+
+/*sub child*/
+.green li{
+    color: brown;
+}

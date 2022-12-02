@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Webpage</title>
+    <link rel="stylesheet" href="../CSS/newstyle.css">
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <style>
+       
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+  
+        .swiper-slide {
+          text-align: center;
+          background: #fff;
+        }
+  
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
+</head>
+<body>
+    <div id="container">
+        <!--header-->
+        <header>
+        <div id="Header-nav">
+            <div class="logo"  margin: 15px 20px;>
+                <a href="#">
+                    <img src="E:\CG Training\Demo\images\download" height="75px" alt="logo">
+                </a>
+            </div>
+            <div class="search-outer">
+                <form class="search-form">
+                <input text="search" placeholder=" search for products">
+                <button type="submit" class="search-btn">></button>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+            <!--header-->
+            <!--navbar-->
+            <div id="navbar">
+                <ul>
+                    <li>Name</li>
+                    <li>About us</li>
+                    <li class="drophead">products
+                        <ul class="dropmenu">
+                        <ul>
+                            <a href="#">phone</a>
+                        </ul>
+                        <ul>
+                            <a href="#">electronics</a>
+                        </ul>
+                        <ul>
+                            <a href="#" >bikes </a>
+                        </ul>
+                        </ul>
+                    </li>
+                    <li>contactus</li>
+                </ul>
+            </div>
+            <!--navbar-->
+        </header>
+            <!--banner-->
+            <div>
+                
+                <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" width="200px" height="100px">
+            <img src="../images/banner.sample.jpg"  alt="banner" width="200px" height="100px">
+        </div>
+          <div class="swiper-slide">
+            <img src="../images/banner2.jpg" alt="banner" width="200px" height="100px">
+        </div>
+          <div class="swiper-slide">
+            <img src="../images/banner3.jpg" alt="banner" width="200px" height="100px">
+        </div>
+          <div class="swiper-slide">
+            <img src="../images/banner4.jpg" alt="banner" width="200px" height="100px">
+        </div>
+          
+          
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+            </div>
+            <!--banner-->
+            <!--content-->
+            <section class="section">
+                <div class="content-left">
+                <h2> Hi user.How are you</h2>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sint aliquam quas cum facere, in est, ullam veniam modi ipsam pariatur, dolore impedit rem. Accusantium vitae ipsam nam asperiores laborum?
+                </div>
+                <div>
+                    <img src="../images/banner2.jpg"  alt="banner" width="400px" height="200px">
+                </div>
+                </div>
+            <aside class="content-aside">
+                <div>
+                    <h3>main products</h3>
+                    <ul>
+                        <li>apple</li>
+                        <li>samsung</li>
+                        <li>micromax</li>
+                    </ul>
+                </div>
+            
+            </aside>
+            
+                  
+        </section>
+        <div class="clearfix"></div>
+            <!--content-->
+            <!--footer-->
+            
+            <div class="footer-menu">
+            
+                <label>About us</label><br>
+                <ul>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+                <div class="footer-menu">
+                <label>help</label><br>
+                <ul>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+             </div>
+                <div class="footer-menu">
+                 <label>social</label><br>
+                <ul>
+                    <li><a href="#">insta</a></li>
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">messenger</a></li>
+                </ul>
+                 </div>
+            </div>
+            <div>
+                <ADDRESS>
+                <label>ADDRESS</label><br>
+                <P>54,NNHJ</P>
+                <P>JKKJUKK</P>
+                </ADDRESS>
+            </div>
+            <!--COPYRIGHT-->
+            <div id="copyright">
+            
+                    <small>Copyright &copy;2022-XYZ company</small>
+            
+            </div>
+            <!--COPYRIGHT-->
+         </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
+</html>

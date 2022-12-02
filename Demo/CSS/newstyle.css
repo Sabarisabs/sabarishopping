@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+}
+#container{
+    background-color: lightblue;
+    max-width: 1024;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+#Header-nav{
+    background-color: blue;
+}
+.logo{
+    float: left;
+}
+.logo > a > img{
+    margin:15px 20px
+}
+
+.search-outer{
+    float: right;
+    padding: 50px;
+}
+
+.search-outer > form > input {
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+.search-btn{
+    background-color: blue;
+    color: white;
+    background-color: azure;
+    color:blue;
+    font-weight: bold;
+    border: none;
+}
+.clearfix{
+    clear: both;
+}
+.search-form{
+    background-color: white;
+}
+#navbar{
+    background-color: white;
+}
+#navbar> ul > li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+#navbar >ul {
+    padding: 0;
+    margin: 0;
+}
+#navbar a{
+    text-decoration: none;
+    color:black;
+}
+#navbar > ul > li:hover{
+    background-color: blue;
+    color: white;
+}
+#navbar > ul > li:hover a{
+    color: white;
+}
+.drophead {
+position: relative;
+}
+.drophead:hover .dropmenu{
+    display: block;
+}
+.dropmenu li:hover{
+    background-color: blue;
+}
+.dropmenu{
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 100%;
+    z-index: 2;
+}
+.drophead:hover .dropmenu{
+    display: block;
+}
+.dropmenu li:hover{
+    background-color: blue;
+}
+.dropmenu li:hover a{
+    color:blanchedalmond !important
+}
+.section{
+    height: 450px;
+}
+.content-left{
+    float: left;
+    width: 75%;
+    padding-left: 30px;
+}
+.content-aside{
+    float: right;
+    padding: 20px 50px 0px 50px;
+    height: 100%;
+    background-color: blue;
+    color: blanchedalmond;
+    font-weight: 700;
+}
+.content-aside ul{
+    list-style: none;
+}
+.footer-menu{
+    display: inline-block;
+    text-align: center;
+    padding: 0 70px;
+}
+.footer-menu label{
+    font-weight: bold;
+}
+#copyright{
+    text-align:center
+    padding: 20px;
+}
